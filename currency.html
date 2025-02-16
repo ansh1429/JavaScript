@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECMA_DAY_4</title>
+</head>
+<body>
+    <div>
+        <label>Enter Amount :</label>
+    <input type="text" id="inp1" placeholder="Enter Amount">
+    <br><br>
+    <label>Select Option :</label>
+     <select id="select1" onchange="fun1()">
+        <option value="select" disabled selected>Select option</option>
+        <option value="a">Rupees to Dollar</option>
+        <option value="b">Rupees to Pounds</option>
+        <option value="c">Rupees to Euro</option>
+        <option value="d">Rupees to Yen</option>
+        <option value="e">Rupees to Yuan</option>
+    </select>
+    <br><br><br>
+    <b>The Amount Is : </b>
+    <b id="para1"></b>
+    </div>
+
+
+
+    <script src="currency.js"></script>
+</body>
+</html>
